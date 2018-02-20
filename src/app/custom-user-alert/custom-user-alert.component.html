@@ -1,0 +1,13 @@
+  <div class="row">
+
+    <div class="col-xs-4">
+      <label class="userInputLabel" for="userInput">Type custom message here: </label>
+      <input id="userInput" type="text" placeholder="..." [(ngModel)]="userInputText">
+    </div><br/>
+
+    <div class="col-xs-pull-4">
+      <button class="btn btn-default" (click)="onBtnClick()">Commence alert!</button>
+      <button class="btn btn-default" (click)="onClear()">Reset</button>
+    </div>
+
+  </div>
